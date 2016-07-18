@@ -8,12 +8,11 @@
 :tests:
 - type: junit
   command: mvn test && cp art/rep.xml target/surefire-reports/TEST-com.app.IntegrationTest.xml
-  command: cp art/source.file target.file
   mode: basic
   report_files:
   - "**/surefire-reports/TEST-*.xml"
 
-#- type: custom
-#  command: mvn --help
-#  invocation: single
-#  output: exit-status
+- type: custom
+  command: command: cp art/source.file target.file
+  invocation: single
+  output: exit-status
