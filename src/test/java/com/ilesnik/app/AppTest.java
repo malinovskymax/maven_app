@@ -41,8 +41,8 @@ public class AppTest
         assertTrue(100 == 50 * 2);
     }
 
-    /*public void testShouldFail()
+    public void testShouldFail()
     {
         assertFalse( true );
-    }*/
+    }
 }
