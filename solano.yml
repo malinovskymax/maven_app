@@ -8,6 +8,7 @@
 :tests:
 - type: junit
   command: mvn test && cp art/rep.xml target/surefire-reports/TEST-com.app.IntegrationTest.xml
+  command: cp art/source.file target.file
   mode: basic
   report_files:
   - "**/surefire-reports/TEST-*.xml"
