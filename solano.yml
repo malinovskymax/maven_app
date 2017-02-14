@@ -1,3 +1,2 @@
 tests:
-#- type: junit
   command: mvn test
