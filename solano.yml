@@ -1,7 +1,7 @@
 ---
 :java:
   :java_version: java-7-openjdk
-  :maven_version: 3.0.5
+#  :maven_version: 3.0.5
 
 #:ruby_version: ruby-1.9.3
 
