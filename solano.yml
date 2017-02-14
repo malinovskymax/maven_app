@@ -6,7 +6,7 @@
 
 :tests:
 - type: junit
-  command: mvn test && cp art/rep.xml target/surefire-reports/TEST-com.app.IntegrationTest.xml
+  command: mvn test
   mode: basic
 
 #  report_files:
