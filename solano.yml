@@ -7,7 +7,8 @@
 :tests:
 - type: junit
   command: mvn test
-  mode: basic
+
+#  mode: basic
 
 #  report_files:
 #  - "**/surefire-reports/TEST-*.xml"
