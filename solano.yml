@@ -1,3 +1,4 @@
 tests:
   command: mvn test
 script: mvn test
+
